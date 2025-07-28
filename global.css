@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'interestelar';
+    src: url(assets/fonts/BebasNeue-Regular.woff2);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'secondary-font';
+    src: url(assets/fonts/OldStandardTT-Regular.woff2);
+}
+body, * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 252, 238);
+}
+.nav-container {
+    display: none;
+}
+@media (min-width: 1024px) {
+    .nav-container {
+        display: flex;
+    }
+    .menu-mobile-container {
+        display: none;
+    }
+
+}
