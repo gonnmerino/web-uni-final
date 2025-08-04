@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.bg {
+    background: url(../assets/image/bg-10.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+article p {
+    margin: 22px 0px 0px 0px;
+    padding-left: 10px;
+    border-left: 3px solid #c04215;
+    line-height: 1.4;
+    font-family: 'interestelar-bold';
+    letter-spacing: .08rem;
+    padding-top: 0px;
+}
+#director-title {
+    margin-bottom: 1rem;
+}
+.actor-title {
+    font-family: 'interestelar-bold';
+    letter-spacing: .14rem;
+}
+img {
+    display: flex;
+    margin: .2rem auto .5rem auto;
+    width: 50dvw;
+}
+.card {
+    width: 65dvw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article {
+    margin: 1rem;
+}
+@media (min-width: 1024px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 2rem;
+        margin: auto;
+        column-gap: 4rem;
+        margin-bottom: 1rem;
+    }
+    .card {
+        width: 20dvw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .director-title {
+        word-spacing: 50rem;
+    }
+}

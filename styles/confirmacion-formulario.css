@@ -1,0 +1,29 @@
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        gap: 2rem;
+    }
+h2 {
+    font-size: 2rem;
+    font-family: 'interestelar-bold';
+    letter-spacing: .2rem;
+}
+a {
+    text-decoration: none;
+    font-family: 'interestelar';
+    color:antiquewhite;
+    text-shadow: black 2px 2px 8px;
+}
+a:hover {
+    color: rgb(172, 60, 20);
+}
+p, h2 {
+    text-shadow: black 2px 2px 8px;
+}
+@media (min-width: 1024px) {
+    .card {
+        width: 60ch;
+    }
+}

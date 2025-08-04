@@ -1,0 +1,61 @@
+.bg {
+    background: url(../assets/image/bg-9.webp);
+}
+li {
+    color: rgb(255, 250, 230);
+    font-family: 'segoe-ui';
+    list-style-type:none;
+    font-size: clamp(0.95rem, 1.5vw, 1.125rem);
+}
+ul {
+    text-align: left;
+}
+h3 {
+    margin-bottom: .5rem;
+}
+.lst {
+    list-style-type:disc;
+    margin-left: 2rem;
+}
+.p-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    }
+@media (min-width: 1024px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        column-gap: 6rem;
+        margin-bottom: 2rem;
+    }
+    .p-content {
+        margin: auto;
+    }
+    img {
+        display: flex;
+        margin: auto;
+    }
+    .desktop-version {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        gap: 40dvw;
+    }
+    .desktop-version h3 {
+    flex: 1;
+    text-align: center;
+    }
+
+    .card {
+        width: 40dvw;
+        margin: 0;
+    }
+    .card2 {
+        height: fit-content;
+    }
+    .hide-on-desktop {
+        display: none;
+    }
+}

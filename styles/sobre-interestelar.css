@@ -1,0 +1,42 @@
+.bg {
+    background-image: url(../assets/image/bg-5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.menu-mobile span {
+    background-color: rgb(123, 123, 123);
+}
+h3 {
+    margin-bottom: .2rem;
+    letter-spacing: .1rem;
+}
+@media (min-width: 1024px) {
+    .image-content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.4rem;
+    }
+    .p-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-content-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.4rem;
+        margin-top: auto;
+    }
+
+    .d2 {
+        margin-top: auto;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        padding-top: 0;
+    }
+    h3 {
+        margin-bottom: .5rem;
+    }
+}

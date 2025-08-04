@@ -1,0 +1,39 @@
+.bg {
+    background-image: url(../assets/image/bg-7.webp);
+    background-position: center;
+    background-size: cover;
+    background-position-x: 20% ;
+}
+h3 {
+    margin-bottom: .5rem;
+    letter-spacing: .1rem;
+    font-family: 'interestelar-bold';
+}
+.image-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        padding-top: 0;
+    }
+    .image-content {
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        width: 25dvw;
+        margin: auto;
+    }
+    .bg {
+        background-position-x:-80%;
+    }
+    h3 {
+        text-shadow: black 2px 2px 8px;
+    }
+    article {
+        text-shadow: black 2px 2px 8px;
+    }
+}

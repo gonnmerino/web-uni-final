@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.bg {
+    opacity: 70%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+#nombre, #apellido, #email, #mensaje {
+    background-color: rgba(128, 128, 128, 0.2);
+    border-style: none;
+    padding: 10px;
+}
+#mensaje {
+    max-width: 100%;
+    min-width: 100%;
+}
+.titles {
+    margin-bottom: 5rem;
+}
+h2, label {
+    font-family: 'interestelar-bold';
+    color: antiquewhite;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 1rem;
+    font-family: 'interestelar-bold';
+    letter-spacing: .2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.105);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    padding: 14px; 
+}
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    border-style: none;
+    padding: 4px;
+    background-color: rgba(128, 128, 128, 0.2);
+    backdrop-filter: blur(5px);
+    color: antiquewhite;
+}
+.form-title {
+    font-size: 2rem;
+}
+.submit-btn:hover {
+    background-color:rgb(192, 67, 1);
+}
