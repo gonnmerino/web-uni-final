@@ -1,7 +1,5 @@
 # web-uni-final
-
-# ELIMINA DEL ALMACENAMIENTO LOCAL DEL NAVEGADOR LA CALVE "introVisto"
- PARA PROBAR EL FADEIN DEL INICIO.
- 
+# Importante darle permiso de audio al sitio para escuchar la musica.
+Elimina del almacenamiento local del navegador la clave "introVisto" para probar el fadein.
 localStorage.removeItem("introVisto");
 location.reload();
