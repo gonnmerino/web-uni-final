@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.bg {
+    background: url(assets/image/bg-10.jpg);
+    opacity: 40%;
+}
+
+.card {
+    margin: 0 auto 1rem auto;
+    width: 70dvw;
+}
+
+h3 {
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    font-family: 'interestelar-bold';
+    letter-spacing: .1rem;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'interestelar-bold';
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 40dvw;
+    }
+}
